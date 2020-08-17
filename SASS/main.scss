@@ -1,0 +1,33 @@
+
+body
+{
+
+
+    nav
+    {
+        width: 80%;
+        margin: auto;
+        float: right;
+    }
+}
+
+
+
+@media (max-width: 1073px){
+
+    nav
+    {
+        display: contents;
+
+    }
+
+
+}
+
+@import "Vendor/Company-Name/Company-Name";
+@import "Vendor/Nav/app-Section-Nav/app-Section-Nav";
+@import "Vendor/Nav/container-Section-Showcase_IMG/container-Section-Showcase-IMG";
+@import "Vendor/Nav/container-Section-Services/container-Section-Services";
+@import "Vendor/Nav/container-Section-Designers/container-Section-Designers";
+@import "Vendor/Nav/container-Section-Packages/container-Section-Packages";
+@import "Vendor/Nav/container-Section-Contact/container-Section-Contact";

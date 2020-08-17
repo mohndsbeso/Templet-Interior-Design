@@ -1,0 +1,75 @@
+.container-Section-Designers
+{
+    .row
+    {    margin: 3em 3em;}
+
+    .card-text
+{
+    div
+    {
+        h1
+        {    color: #f44336!important;
+            font-size: 50px;
+            font-weight: bolder;
+            letter-spacing: 1px;}
+
+        hr
+        {background: #f44336!important;
+            width: 5%;
+            display: -webkit-inline-box;
+            padding: 5px;
+            border-radius: 1em;}
+
+        p
+        {    color: #000000b8;
+            font-weight: 400;}
+    }
+}
+
+
+.card-span
+{
+    div
+    {
+        span
+        {font-weight: 500;}
+    }
+}
+
+
+
+
+
+
+.card-img-and-text
+{margin-top: 4em;
+    div
+    {    color: #000!important;
+        background-color: #f1f1f1!important;
+        text-align: center;
+        overflow: hidden;
+        border-radius: 1em;
+    
+    img
+    {    width: 100%;    filter: saturate(0.5) drop-shadow(2px 4px 6px black);}
+
+    h1
+    {font-size: 26px;padding-top: 1em;}
+
+    span
+    { color: #86888a;}
+
+    p
+    {    padding: 1em 0em;
+        margin: 1em;}
+    
+    
+    }
+}
+
+
+
+
+
+
+}

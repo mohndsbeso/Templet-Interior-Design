@@ -1,0 +1,98 @@
+.container-Section-Packages
+{
+    .row
+    {    margin: 3em 3em;}
+
+
+    .card-text-header
+{
+
+
+
+
+    h1
+    {    color: #f44336!important;
+        font-size: 50px;
+        font-weight: bolder;
+        letter-spacing: 1px;}
+
+        hr
+        {    background: #f44336;
+            width: 3%;
+            margin: inherit;
+            padding: 4px;
+            border-radius: 18px;}
+
+        p
+        {    padding-top: 3em;
+            padding-bottom: 0;
+            margin: 0;}
+
+}
+
+
+.card-tabol
+{    
+     padding: 0;
+
+     div
+     {  text-align: center;
+        margin: 1em;
+         h1
+         {
+            color: #fff!important;
+            background-color: #616161!important;
+            margin: 0;
+            padding: .5em 0em;}
+
+        .pro
+        {    color: #fff!important;
+            background-color: #f44336!important;}
+
+        ul
+        {
+            padding: 0;
+            margin: 0;
+            color: #000!important;
+            background-color: #f1f1f1!important;
+
+            .per-room
+            {
+                
+            font-size: 25px;
+            line-height: 2;
+            font-weight: 500;
+            span
+            {    color: #adb5bd;}
+            }
+            li
+            {   
+                list-style: none;
+                margin: 0;
+                padding: 8px 16px;
+                border-bottom: 1px solid #ddd;
+                font-size: 15px;
+                line-height: 3;
+                font-weight: 400;
+
+                button
+                {    background: #fff;
+                    border: 0;
+                    padding: .2em 3em;
+                    font-weight: 700;
+                    border-radius: 5px;}
+            }
+
+        }
+     }
+}
+
+
+
+
+
+
+
+
+
+}

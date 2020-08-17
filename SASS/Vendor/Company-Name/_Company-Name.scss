@@ -1,0 +1,103 @@
+.container-section-Company
+{       
+    color: #fff!important;
+    background-color: #f44336!important;
+    height: 100vh;
+    position: fixed;
+    overflow: hidden;
+    width: 20%;
+    float: left;
+    
+
+    .Company_Name
+    {    padding-top: 6em;
+
+        div
+        {
+            h1
+            {    padding:1em;}
+
+
+            ul
+            {padding: 0;
+                margin: 0;
+
+                li
+                {
+                    list-style: none;
+
+                    a
+                    {    
+                        border-radius: 5px;
+                        border: 0;    
+                        color: #fff;
+                        font-weight: 700;
+                        font-size: 20px;
+                        padding: .3em .8em;
+                        margin: .5em 1.2em;
+                        display: block;}
+                }
+
+            }
+
+            ul li:hover a
+            {text-decoration: none;
+            background-color: #111;
+            color: #fff;
+            }
+        }
+
+    
+    
+    
+    
+    
+    }
+}
+
+
+
+@media (max-width: 1073px){
+
+    .container-section-Company
+    {    background-color: #f44336!important;
+      
+        display: contents;
+
+        .Company_Name
+        {padding-top: 1em;
+            background-color: #f44336!important;
+            div
+            {
+                h1
+                {color: antiquewhite;
+                    margin: 0;
+                    padding: 0em 1em;}
+
+                ul
+                {        background-color: #f44336!important;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                
+                    li
+                    {    list-style: none;
+                        width: 33.333%;
+                        a
+                        {    border-radius: 5px;
+                            border: 0;
+                            font-weight: 700;
+                            font-size: 20px;
+                            padding: .3em .8em;
+                            margin: .5em 1.2em;
+                            display: block;
+                            color: antiquewhite;}
+                    }
+                }
+            }   
+        }
+    }
+
+
+
+}

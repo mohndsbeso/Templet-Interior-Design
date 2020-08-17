@@ -1,0 +1,28 @@
+.container-Section-Showcase_IMG
+{    overflow: hidden;
+
+    .row
+    {
+        margin: 3em 3em;
+        overflow: hidden;
+    }
+
+
+    .card-img
+    {
+        margin: 1em 0em;
+    
+        div
+        {
+            overflow: hidden;
+
+            img
+            {    opacity: 0.8;}
+        }
+    }
+
+    .card-img div img:hover
+    {
+        opacity: 1;
+    }
+}

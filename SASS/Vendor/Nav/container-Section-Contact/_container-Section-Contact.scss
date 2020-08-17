@@ -1,0 +1,61 @@
+.container-Section-Contact
+{
+    
+    .row
+    {    margin: 3em 3em;}
+
+   .card-text-header
+    {
+        div
+        {
+
+
+
+
+        h1
+        {    color: #f44336!important;
+            font-size: 50px;
+            font-weight: bolder;
+            letter-spacing: 1px;}
+    
+            hr
+            {    background: #f44336;
+                width: 3%;
+                margin: inherit;
+                padding: 4px;
+                border-radius: 18px;}
+    
+            p
+            {    padding-top: 3em;
+                padding-bottom: 0;
+                margin: 0;}
+    
+    }
+    }
+
+
+.Form-input
+{
+
+    label
+    {
+        margin: 1em 0em;
+    }
+
+    button
+    {
+        display: block;
+    width: 100%;
+    background: #f44336;
+    border: 0;
+    padding: .5em;
+    margin: 2em 0em;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    }
+}
+
+
+}

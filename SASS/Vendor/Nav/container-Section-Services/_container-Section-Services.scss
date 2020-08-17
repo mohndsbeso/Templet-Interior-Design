@@ -1,0 +1,29 @@
+.container-Section-Services
+{
+.row
+{    margin: 3em 3em;}
+
+.card-text
+{
+    div
+    {
+        h1
+        {    color: #f44336!important;
+            font-size: 50px;
+            font-weight: bolder;
+            letter-spacing: 1px;}
+
+        hr
+        {background: #f44336!important;
+            width: 5%;
+            display: -webkit-inline-box;
+            padding: 5px;
+            border-radius: 1em;}
+
+        p
+        {    color: #000000b8;
+            font-weight: 400;}
+    }
+}
+
+}
